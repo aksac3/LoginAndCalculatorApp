@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LoginAndCalculatorApp</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="sum">+</string>
+    <string name="equal">=</string>
+    <string name="mul">X</string>
+    <string name="div">/</string>
+    <string name="enter">Enter</string>
+    <string name="calculator">CALCULATOR</string>
+    <string name="enter2">Enter</string>
+    <string name="min">-</string>
+    <string name="ans">ans</string>
+</resources>
