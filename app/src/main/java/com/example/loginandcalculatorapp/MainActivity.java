@@ -22,6 +22,41 @@ public class MainActivity extends Activity {
         password = findViewById(R.id.Password);
         button = findViewById(R.id.button);
 
+        /*
+        // Database
+        myDB = new DB (context: this)
+        btnSingUp.setOnClickListener(new View.onClickListener() {
+        @Overrride
+        public void onClick(View v) {
+        String user = Username.getText().toString();
+        String password = Password.getText().toString();
+
+        if (user.equals("") || password.equals("")) {
+        Toast.makeText(this, "Add your credentials", Toast.LENGTH_SHORT).show();
+        } else {
+        if (user.equals (Username)) {
+        Boolean usercheckResult = myDB.checkusername(user);
+        if (usercheckResult == false)
+        {
+        Boolean regResult = myDB.insertData(user.password);
+        if (regResult == true) {
+        Toast.makeText(this, "Registration Successful.", Toast.LENGTH_SHORT).show();
+        }
+       else {
+       Toast.makeText(this, "Registration Failed.", Toast.LENGTH_SHORT).show();
+       }
+     }
+        else {
+         Toast.makeText(this, "User already exist. \n Please Sign In", Toast.LENGTH_SHORT).show();
+         }
+     }
+         else {
+         Toast.makeText(this, "Wrong credentials", Toast.LENGTH_SHORT).show();
+       }
+     }
+    });
+    */
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
